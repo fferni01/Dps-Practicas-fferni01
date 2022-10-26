@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/workspaces/Practicas/lab2-unit-tests-fferni01/exampleFunction.cpp
+math.h
+-
+limits.h
+-
+stdio.h
+-
+stdint.h
+-
+
+/workspaces/Practicas/lab2-unit-tests-fferni01/tests.cpp
+exampleFunction.cpp
+/workspaces/Practicas/lab2-unit-tests-fferni01/exampleFunction.cpp
+limits.h
+-
+gtest/gtest.h
+-
+
