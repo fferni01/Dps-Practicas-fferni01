@@ -31,7 +31,7 @@ void func(size_t array_size)
     1-
         Se declara un array flexible para crear un struct de tamaño dinámico,
     2-
-        El error se encuentra en la linea 6
+        El error se encuentra en la línea 6
     3-
         La regla incumplida es: DCL38-C. Use the correct syntax when declaring a flexible array member-
 */
