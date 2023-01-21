@@ -27,11 +27,13 @@ int main(void)
 }
     /*
     1- 
-        Entraria en el switch en el caso 0, asignandole a la variable i el valor 17 y lo muestra porque entra en default dado que no hay break
+        Entraría en el switch en el caso 0, asignándole a la variable i el valor 17 y lo muestra porque entra en default dado que no hay break
+
     2-
-        El problema yo lo encuentro en las lineas 13 y 14 debido a que tenemos
-        la iniciacion de una variable y la llamada a una funcion dentro del switch sin ningun caso
-        preestablecido por lo tanto este codigo seria inacesible.
+
+        El problema yo lo encuentro en las líneas 13 y 14 debido a que tenemos
+        la iniciación de una variable y la llamada a una función dentro del switch sin ningún caso
+        Preestablecido por lo tanto este código seria inaccesible.
     5- 
         rats:
             Entries in perl database: 33
